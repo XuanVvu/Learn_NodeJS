@@ -2,7 +2,7 @@ import express from 'express';
 
 import morgan from 'morgan';
 import configViewEngine from './configs/viewEngine';
-import initWebRoute from './routes/web';
+
 import initAPIRoute from './routes/api';
 import cors from 'cors';
 
